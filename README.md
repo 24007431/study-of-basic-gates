@@ -66,14 +66,37 @@ Y= A⊕B
 
 Program for logic gates and verify its truth table in quartus using Verilog programming
 
- Developed by: RegisterNumber: 
+ Developed by: JAYANTH S S
+
+ RegisterNumber: 212224050014
+~~~
+module basic_gates(a,b,f1,f2,f3,f4,f5,f6,f7);
+input a,b;
+output f1,f2,f3,f4,f5,f6,f7;
+assign f1=a&b;
+assign f2=a|b;
+assign f3=~a;
+assign f4=~f1;
+assign f5=~f2;
+assign f6=a^b;
+assign f7=~(a^b);
+endmodule
+~~~
  
 **Logic symbol & Truthtable**
 
-**RTL realization Output:** 
+![329466695-2f6d090e-b158-4a7f-a95c-8607e599e91a](https://github.com/user-attachments/assets/06a56e07-7f90-4cc2-8e58-cf4034987aec)
+![329466813-40baeb41-c5d7-4de3-be03-c21544a9419a](https://github.com/user-attachments/assets/90c8003f-ef51-4543-864d-8a13b1bdcd93)
 
-**RTL**
+**RTL realization:** 
 
-**Result:**
+![329466965-ec8c42e3-917f-4019-a1f5-a31d00f47b32](https://github.com/user-attachments/assets/2640ea5c-b2ff-4e25-a766-bdc5921d9654)
 
+**Output**
+![424322349-ed3978e0-7324-45ba-9210-3474eba439c0](https://github.com/user-attachments/assets/838b7d0a-d111-498b-b153-6358bf051f9a)
+
+
+**Result
+
+Thus the different digital IC’s are studied and the truth table for different logic gates are verified.
 
